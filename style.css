@@ -33,7 +33,7 @@ body{
     color: #555;
     padding: 10px 25px;
     height: 60px;
-    border-radius: 30px;
+    border-radius: 10px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
@@ -43,7 +43,7 @@ body{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 50%;
+    border-radius: 20%;
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -83,5 +83,11 @@ body{
 .col img{
  width: 40px;
  margin-right: 10px;
- 
+
 }
+ .humidility , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+
+
+ }

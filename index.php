@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
+    <select id="province-select">
+        <option value="">Select Province</option>
+    </select>
+    <select id="district-select" style="display:none;">
+        <option value="">Select District</option>
+    </select>
+</div>
+    </div>
     <div class="card">
-        <div class="search">
-            <input type="text" placeholder="Enter Your City" spellcheck="false">
-            <button><img src="img/images/search.png"></button>
-        </div>
+    <div class="search">
+        <input type="text" id="search-input" placeholder="Enter Your City" spellcheck="false">
+        <button id="search-button"><img src="img/images/search.png"></button>
+      
+    </div>
 
         <div class="weather">
             <img src="img/images/rain.png" class="weather-icon"><h1 class="temp">
@@ -41,8 +51,9 @@
     </div>
     
 </body>
-</html> -->
-<!-- <!DOCTYPE html>
+</html> 
+
+ <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -124,8 +135,8 @@
 </script>
 
 </body>
-</html> -->
-<!DOCTYPE html>
+</html>  -->
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -226,4 +237,6 @@
 </script>
 
 </body>
-</html>
+</html> -->
+
+
